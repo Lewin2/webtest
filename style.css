@@ -25,7 +25,7 @@ input {
     font: 2.7rem "Neue Haas Grotesk Text Pro", Helvetica, Arial, sans-serif;
 
     outline: none;
-}@media(max-width:500px) {
+}@media(max-width:600px) {
     input {
         width: 20px;
         height: 20px;
@@ -38,8 +38,21 @@ input:hover {
     height: 48px;
     background-color: rgba(0, 0, 0, 0.1);
     transition: width 1s 0.1s, transform 0.3s, background-color 1s 0.1s, height 1s 0.1s;
-}@media(max-width:500px) {
+}@media(max-width:600px) {
     input:hover {
+        width: 380.43px;
+        height: 38px;
+    }
+}
+
+input:focus {
+    transform: rotate(0deg);
+    width: 537.43px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: width 1s 0.1s, transform 0.3s, background-color 1s 0.1s, height 1s 0.1s;
+}@media(max-width:600px) {
+    input:focus {
         width: 380.43px;
         height: 38px;
     }
